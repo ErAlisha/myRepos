@@ -1,0 +1,16 @@
+Pushing code from your local system to remote system via COMMAND LINE INTERFACE ie. Command Prompt.
+
+Steps to follow --
+1. Make your GITHUB Account
+2. Make a new empty repository
+3. Add a new file named "readme.md" in this new repo.
+   Basically this "readme.md" file is used for descriptive text.
+4. Now Commit this file in your local system.
+  (Basically when you do git add [file name] - it move your mdification to staging area and            when you do git commit, it performs commit in your local system.
+--Now set up the basic git's configuration
+5. git config --global user.name "ErAlisha"
+6. git config --global user.email "alishachhabra1111@gmail.com"
+7. git remote add origin https://github.com/ErAlisha/myRepos.git
+8. git push -u origin master
+
+And finally your commit will be reflected on github also.
