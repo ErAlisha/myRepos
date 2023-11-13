@@ -14,3 +14,7 @@ Steps to follow --
 8. git push -u origin master
 
 And finally your commit will be reflected on github also.
+
+IMP---
+1. cd .. is used to move backwards ie.in your parent directory
+2. cd "folder name" to move aage 
