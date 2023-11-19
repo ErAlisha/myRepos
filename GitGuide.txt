@@ -7,13 +7,28 @@ Steps to follow --
    Basically this "readme.md" file is used for descriptive text.
 4. Now Commit this file in your local system.
   (Basically when you do git add [file name] - it move your mdification to staging area and            when you do git commit, it performs commit in your local system.
+
+These steps just needs to be performed first time when we were setting the environment.
 --Now set up the basic git's configuration
 5. git config --global user.name "ErAlisha"
 6. git config --global user.email "alishachhabra1111@gmail.com"
-7. git remote add origin https://github.com/ErAlisha/myRepos.git
+7. git remote add origin https://github.com/ErAlisha/myRepos.git ,, only needs to map a new repository with github,only while initialising new repository.
 8. git push -u origin master
 
+//So, normally we'll be doing
+1.Git add folder/file name
+2. Git commit -m"commit message"
+3. git push -u origin master
 And finally your commit will be reflected on github also.
+
+Writing good commit message is a skill. Let's understand this.
+feat - a new feature
+fix - a bug fix
+docs - changes in documentation
+style - everything related to styling
+refactor - code changes that neither fixes a bug or adds a feature
+test - everything related to testing
+chore - updating build tasks, package manager configs, etc
 
 IMP---
 1. cd .. is used to move backwards ie.in your parent directory
